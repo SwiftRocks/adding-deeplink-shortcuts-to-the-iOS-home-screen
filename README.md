@@ -1,0 +1,1 @@
+Project related to [https://swiftrocks.com/adding-deeplink-shortcuts-to-the-ios-home-screen.html](SwiftRocks: Adding Deeplink Shortcuts to the iOS Home Screen)

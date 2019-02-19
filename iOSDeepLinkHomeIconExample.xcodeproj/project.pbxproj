@@ -1,0 +1,423 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79E86F1418C11EC4C499AC91 /* Pods_iOSDeepLinkHomeIconExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA02E3BC9E4EB4D53573DE51 /* Pods_iOSDeepLinkHomeIconExample.framework */; };
+		FD2E95DD22046AFC0099B640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E95DC22046AFC0099B640 /* AppDelegate.swift */; };
+		FD2E95DF22046AFC0099B640 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2E95DE22046AFC0099B640 /* ViewController.swift */; };
+		FD2E95E222046AFC0099B640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2E95E022046AFC0099B640 /* Main.storyboard */; };
+		FD2E95E422046AFD0099B640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD2E95E322046AFD0099B640 /* Assets.xcassets */; };
+		FD2E95E722046AFD0099B640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD2E95E522046AFD0099B640 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7FC824CC98483D077F22FB8A /* Pods-iOSDeepLinkHomeIconExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDeepLinkHomeIconExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDeepLinkHomeIconExample/Pods-iOSDeepLinkHomeIconExample.release.xcconfig"; sourceTree = "<group>"; };
+		CA02E3BC9E4EB4D53573DE51 /* Pods_iOSDeepLinkHomeIconExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOSDeepLinkHomeIconExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8C9F0FD97E7A26244BEDF5F /* Pods-iOSDeepLinkHomeIconExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSDeepLinkHomeIconExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOSDeepLinkHomeIconExample/Pods-iOSDeepLinkHomeIconExample.debug.xcconfig"; sourceTree = "<group>"; };
+		FD2E95D922046AFC0099B640 /* iOSDeepLinkHomeIconExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSDeepLinkHomeIconExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2E95DC22046AFC0099B640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD2E95DE22046AFC0099B640 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD2E95E122046AFC0099B640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD2E95E322046AFD0099B640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD2E95E622046AFD0099B640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FD2E95E822046AFD0099B640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5B4D382204B25E00AF0779 /* iOSDeepLinkHomeIconExample.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = iOSDeepLinkHomeIconExample.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD2E95D622046AFC0099B640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79E86F1418C11EC4C499AC91 /* Pods_iOSDeepLinkHomeIconExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE3DFB01B5452D8DE4AE464E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA02E3BC9E4EB4D53573DE51 /* Pods_iOSDeepLinkHomeIconExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F3F2E83266947FEFC3251F01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8C9F0FD97E7A26244BEDF5F /* Pods-iOSDeepLinkHomeIconExample.debug.xcconfig */,
+				7FC824CC98483D077F22FB8A /* Pods-iOSDeepLinkHomeIconExample.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FD2E95D022046AFC0099B640 = {
+			isa = PBXGroup;
+			children = (
+				FD2E95DB22046AFC0099B640 /* iOSDeepLinkHomeIconExample */,
+				FD2E95DA22046AFC0099B640 /* Products */,
+				F3F2E83266947FEFC3251F01 /* Pods */,
+				EE3DFB01B5452D8DE4AE464E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FD2E95DA22046AFC0099B640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD2E95D922046AFC0099B640 /* iOSDeepLinkHomeIconExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD2E95DB22046AFC0099B640 /* iOSDeepLinkHomeIconExample */ = {
+			isa = PBXGroup;
+			children = (
+				FD5B4D382204B25E00AF0779 /* iOSDeepLinkHomeIconExample.entitlements */,
+				FD2E95DC22046AFC0099B640 /* AppDelegate.swift */,
+				FD2E95DE22046AFC0099B640 /* ViewController.swift */,
+				FD2E95E022046AFC0099B640 /* Main.storyboard */,
+				FD2E95E322046AFD0099B640 /* Assets.xcassets */,
+				FD2E95E522046AFD0099B640 /* LaunchScreen.storyboard */,
+				FD2E95E822046AFD0099B640 /* Info.plist */,
+			);
+			path = iOSDeepLinkHomeIconExample;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD2E95D822046AFC0099B640 /* iOSDeepLinkHomeIconExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2E95EB22046AFD0099B640 /* Build configuration list for PBXNativeTarget "iOSDeepLinkHomeIconExample" */;
+			buildPhases = (
+				188D1E7098C25D59D052F3D3 /* [CP] Check Pods Manifest.lock */,
+				FD2E95D522046AFC0099B640 /* Sources */,
+				FD2E95D622046AFC0099B640 /* Frameworks */,
+				FD2E95D722046AFC0099B640 /* Resources */,
+				F60938BCAB18CF655A9AAC20 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSDeepLinkHomeIconExample;
+			productName = iOSDeepLinkHomeIconExample;
+			productReference = FD2E95D922046AFC0099B640 /* iOSDeepLinkHomeIconExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD2E95D122046AFC0099B640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = rockbruno;
+				TargetAttributes = {
+					FD2E95D822046AFC0099B640 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = FD2E95D422046AFC0099B640 /* Build configuration list for PBXProject "iOSDeepLinkHomeIconExample" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD2E95D022046AFC0099B640;
+			productRefGroup = FD2E95DA22046AFC0099B640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD2E95D822046AFC0099B640 /* iOSDeepLinkHomeIconExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD2E95D722046AFC0099B640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2E95E722046AFD0099B640 /* LaunchScreen.storyboard in Resources */,
+				FD2E95E422046AFD0099B640 /* Assets.xcassets in Resources */,
+				FD2E95E222046AFC0099B640 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		188D1E7098C25D59D052F3D3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iOSDeepLinkHomeIconExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F60938BCAB18CF655A9AAC20 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-iOSDeepLinkHomeIconExample/Pods-iOSDeepLinkHomeIconExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Swifter/Swifter.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Swifter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iOSDeepLinkHomeIconExample/Pods-iOSDeepLinkHomeIconExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD2E95D522046AFC0099B640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2E95DF22046AFC0099B640 /* ViewController.swift in Sources */,
+				FD2E95DD22046AFC0099B640 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD2E95E022046AFC0099B640 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD2E95E122046AFC0099B640 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FD2E95E522046AFD0099B640 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD2E95E622046AFD0099B640 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD2E95E922046AFD0099B640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FD2E95EA22046AFD0099B640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD2E95EC22046AFD0099B640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C9F0FD97E7A26244BEDF5F /* Pods-iOSDeepLinkHomeIconExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GEC7S6VF4;
+				INFOPLIST_FILE = iOSDeepLinkHomeIconExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.rockbruno.iOSDeepLinkHomeIconExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FD2E95ED22046AFD0099B640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FC824CC98483D077F22FB8A /* Pods-iOSDeepLinkHomeIconExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4GEC7S6VF4;
+				INFOPLIST_FILE = iOSDeepLinkHomeIconExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = br.rockbruno.iOSDeepLinkHomeIconExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD2E95D422046AFC0099B640 /* Build configuration list for PBXProject "iOSDeepLinkHomeIconExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2E95E922046AFD0099B640 /* Debug */,
+				FD2E95EA22046AFD0099B640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD2E95EB22046AFD0099B640 /* Build configuration list for PBXNativeTarget "iOSDeepLinkHomeIconExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2E95EC22046AFD0099B640 /* Debug */,
+				FD2E95ED22046AFD0099B640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FD2E95D122046AFC0099B640 /* Project object */;
+}

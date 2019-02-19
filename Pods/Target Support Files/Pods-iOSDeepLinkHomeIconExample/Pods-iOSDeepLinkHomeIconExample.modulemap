@@ -1,0 +1,6 @@
+framework module Pods_iOSDeepLinkHomeIconExample {
+  umbrella header "Pods-iOSDeepLinkHomeIconExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
