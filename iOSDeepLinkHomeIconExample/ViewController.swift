@@ -12,26 +12,45 @@ import Swifter
 
 class ViewController: UIViewController {
 
-    var server: HttpServer!
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        server = HttpServer()
-        let deepLinkUrl = URL(string: "shortcutTestApp://")!
-        let iconBase64 = UIImage(named: "sIcon")!.jpegData(compressionQuality: 0)!.base64EncodedString()
-        let pSplashBase64 = UIImage(named: "sPortrait")!.jpegData(compressionQuality: 0)!.base64EncodedString()
-        let lSplashBase64 = UIImage(named: "sLandscape")!.jpegData(compressionQuality: 0)!.base64EncodedString()
-        let html = htmlFor(title: "MyShortcut", urlToRedirect: deepLinkUrl, iconBase64: iconBase64, pSplashBase64: pSplashBase64, lSplashBase64: lSplashBase64)
-        let base64 = html.data(using: .utf8)!.base64EncodedString()
-        server["/s"] = { request in
-            return .movedPermanently("data:text/html;base64,\(base64)")
-        }
-        try! server.start(8245)
-        // Do any additional setup after loading the view, typically from a nib.
-    }
+    var server: HttpServer?
 
     @IBAction func shortcutButtonTouched(_ sender: Any) {
-        UIApplication.shared.open(URL(string: "http://localhost:8245/s")!)
+        showShortcutScreen(forDeepLink: "shortcutTestApp://profile")
+    }
+
+    func showShortcutScreen(forDeepLink deepLink: String) {
+        server = HttpServer()
+        guard let deepLinkUrl = URL(string: deepLink) else {
+            return
+        }
+        guard let shortcutUrl = URL(string: "http://localhost:8245/s") else {
+            return
+        }
+        guard let iconData = UIImage(named: "sIcon")?.jpegData(compressionQuality: 0) else {
+            return
+        }
+        guard let pSplashData = UIImage(named: "sPortrait")?.jpegData(compressionQuality: 0) else {
+            return
+        }
+        guard let lSplashData = UIImage(named: "sLandscape")?.jpegData(compressionQuality: 0) else {
+            return
+        }
+        let iconBase64 = iconData.base64EncodedString()
+        let pSplashBase64 = pSplashData.base64EncodedString()
+        let lSplashBase64 = lSplashData.base64EncodedString()
+        let html = htmlFor(title: "MyShortcut",
+                           urlToRedirect: deepLinkUrl,
+                           iconBase64: iconBase64,
+                           pSplashBase64: pSplashBase64,
+                           lSplashBase64: lSplashBase64)
+        guard let base64 = html.data(using: .utf8)?.base64EncodedString() else {
+            return
+        }
+        server?["/s"] = { request in
+            return .movedPermanently("data:text/html;base64,\(base64)")
+        }
+        try? server?.start(8245)
+        UIApplication.shared.open(shortcutUrl)
     }
 
     func htmlFor(title: String, urlToRedirect: URL, iconBase64: String, pSplashBase64: String, lSplashBase64: String) -> String {
